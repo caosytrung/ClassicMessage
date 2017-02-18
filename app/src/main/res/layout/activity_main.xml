@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mammam.classicmessage.ui.MainActivity">
+
+    <ListView
+        android:layout_marginTop="64dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/black"
+        android:id="@+id/list_view_main"
+        ></ListView>
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/user_cow"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="32dp"
+        />
+
+    <TableRow
+        android:paddingTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/dack1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CMessages"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="96dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:layout_marginLeft="32dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            />
+    </TableRow>
+</RelativeLayout>

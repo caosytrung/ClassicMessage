@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:background="@color/blue_light1"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvSender1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/sms"
+        android:text="SMS Classic"
+        android:textColor="@color/green"
+        android:gravity="center"
+        android:drawablePadding="8dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_send1"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_body_sms"
+        android:textColor="@color/black"
+        android:text="day la phan body sms duoc gui den" />
+
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="right"
+        android:id="@+id/btn_send1"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_buton_sms"
+        />
+
+
+</LinearLayout>
